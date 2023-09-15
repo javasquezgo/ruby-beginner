@@ -1,0 +1,31 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    /* "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Local File",
+            "type": "Ruby",
+            "request": "launch",
+            "program": "${workspaceRoot}/main.rb"
+        }
+    ] */
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Ruby",
+            "type": "Ruby",
+            "request": "launch",
+            "program": "/mnt/c/Users/alejo/OneDrive/Platzi/ruby-beginner/*.rb",
+            "stopOnEntry": false,
+            "cwd": "/mnt/c/Users/alejo/OneDrive/Platzi/ruby-beginner",
+            "showDebuggerOutput": true,
+            "serverPort": 1234,
+            "serverHost": "localhost",
+            "pathToBundler": "/mnt/c/Users/alejo/OneDrive/Platzi/ruby-beginner/path/to/bundle/bin/bundle",
+            "pathToGemFile": "/mnt/c/Users/alejo/OneDrive/Platzi/ruby-beginner/path/to/Gemfile",
+            "pathToRDebugIde": "/mnt/c/Users/alejo/OneDrive/Platzi/ruby-beginner/path/to/rdebug-ide/bin/rdebug-ide"
+        }
+    ]
+}
